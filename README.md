@@ -1,7 +1,15 @@
-# Open3D: A Modern Library for 3D Data Processing
+[travis-image]: https://travis-ci.org/IntelVCL/Open3D.svg?branch=master
+[travis-url]: https://travis-ci.org/IntelVCL/Open3D
+[semaphore-image]: https://semaphoreci.com/api/v1/syncle/open3d-2/branches/master/shields_badge.svg
+[semaphore-url]: https://semaphoreci.com/syncle/open3d-2
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/sau3yewsyxaxpkqe?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/syncle/open3d
 
-[![Build Status](https://travis-ci.org/IntelVCL/Open3D.svg?branch=master)](https://travis-ci.org/IntelVCL/Open3D)
-[![Build status](https://ci.appveyor.com/api/projects/status/sau3yewsyxaxpkqe?svg=true)](https://ci.appveyor.com/project/syncle/open3d)
+# Open3D: A Modern Library for 3D Data Processing
+--------------------------------------------------------------------------------
+| Platform      | Mac           | Ubuntu  | Windows  |
+| ------------- |:-------------:|---------|----------|
+| Build status  | [![Build Status]([travis-image])]([travis-url]) | [![Build Status]([semaphore-image])]([semaphore-url])  | [![Build status]([appveyor-image])]([appveyor-url]) |
 
 ## About this project
 
