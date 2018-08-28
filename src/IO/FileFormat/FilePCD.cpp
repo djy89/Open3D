@@ -29,7 +29,7 @@
 #include <cstdio>
 #include <sstream>
 #include <cstdint>
-#include <External/liblzf/lzf.h>
+#include <3rdparty/liblzf/lzf.h>
 #include <Core/Utility/Console.h>
 #include <Core/Utility/Helper.h>
 
@@ -38,7 +38,7 @@
 // https://github.com/PointCloudLibrary/pcl/blob/master/io/src/pcd_io.cpp
 // https://www.mathworks.com/matlabcentral/fileexchange/40382-matlab-to-point-cloud-library
 
-namespace three{
+namespace open3d{
 
 namespace {
 
@@ -787,4 +787,4 @@ bool WritePointCloudToPCD(const std::string &filename,
     return true;
 }
 
-}    // namespace three
+}    // namespace open3d

@@ -26,7 +26,7 @@
 
 #include "VisualizerWithEditing.h"
 
-#include <External/tinyfiledialogs/tinyfiledialogs.h>
+#include <3rdparty/tinyfiledialogs/tinyfiledialogs.h>
 #include <Core/Geometry/PointCloud.h>
 #include <Core/Geometry/LineSet.h>
 #include <Core/Geometry/TriangleMesh.h>
@@ -42,7 +42,7 @@
 #include <Visualization/Utility/PointCloudPicker.h>
 #include <Visualization/Utility/GLHelper.h>
 
-namespace three{
+namespace open3d{
 
 bool VisualizerWithEditing::AddGeometry(std::shared_ptr<const Geometry>
         geometry_ptr)
@@ -638,4 +638,4 @@ void VisualizerWithEditing::SaveCroppingResult(
             GetViewControl()));
 }
 
-}    // namespace three
+}    // namespace open3d

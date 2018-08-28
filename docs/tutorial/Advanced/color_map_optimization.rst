@@ -7,6 +7,8 @@ Consider color mapping to the geometry reconstructed from depth cameras. As colo
 
 .. code-block:: python
 
+    # examples/Python/Tutorial/Advanced/color_map_optimization.py
+
     from open3d import *
     from trajectory_io import *
     import os, sys
@@ -178,3 +180,5 @@ Results of non-rigid optimization follow.
 
 .. image:: ../../_static/Advanced/color_map_optimization/non_rigid_zoom.png
     :width: 300px
+
+.. note:: If the residual error does not stably decrease, it is mainly because images are being bended abruptly. In this case, consider making iteration more conservative by increasing ``option.non_rigid_anchor_point_weight``.

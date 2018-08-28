@@ -26,9 +26,9 @@
 
 #include "VisualizerForAlignment.h"
 
-#include <External/tinyfiledialogs/tinyfiledialogs.h>
+#include <3rdparty/tinyfiledialogs/tinyfiledialogs.h>
 
-namespace three {
+namespace open3d {
 
 void VisualizerForAlignment::PrintVisualizerHelp()
 {
@@ -329,4 +329,4 @@ void VisualizerForAlignment::EvaluateAlignmentAndSave(
     fclose(f);
 }
 
-}    // namespace three
+}    // namespace open3d
